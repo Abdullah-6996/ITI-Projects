@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an HTML document for Day 3 Task.">
+        <link rel="icon" type="image/x-icon" href="/Day1/assets/images/portrait-siberian-husky-with-different-colored-eyes-black-surface.jpg">
+        <title>Day 3 Task</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Day 3 Task</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#My Courses">My Courses</a></li>
+                    <li><a href="#Gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#FAQ">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="about"> <!-- 1st Section -->
+                <h2>About</h2>
+                <p>my name is Abdullah Mohsen, I'm 19 years old and I'm a web developer.</p>
+                <img src="../assets/images/2227eab4-59db-4b14-b428-940af1ee9c1c.jpg" alt="Hi" width="300" height="200">
+            </section>
+
+            <section id="skills"> <!-- 2nd Section -->
+                <h2>Skills</h2>
+                <p>This is the skills section.</p>
+                <ul>
+                    <li>web development</li>
+                    <li>UI/UX Design</li>
+                    <li>frontend development</li>
+                    <li>software engineering</li>
+                </ul><br>
+                <p><em>Steps to become a <strong>proficient</strong><mark>web developer</mark>:</em></p>
+                <ol type="1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ol>
+            </section>
+            
+            <section id="My Courses"> <!-- 3rd Section -->
+                <h2>My Courses</h2>
+                <p>This is the My Courses section.</p>
+                <table border="1">
+                    <caption>My Courses Table</caption>
+                    <thead>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Duration</th>
+                            <th>State</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>12 weeks</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>Data Science</td>
+                            <td>10 weeks</td>
+                            <td>Completed</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">End of Courses</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section id="Gallery"> <!-- 4th Section -->
+                <h2>Gallery</h2>
+                <figure>
+                    <img src="../assets/images/dan-loftus-uPIxW0nhfCw-unsplash.jpg" alt="Gallery Image 1" width="300" height="200">
+                    <figcaption>Gallery Image 1</figcaption>
+                    <img src="../assets/images/tim-mcerston-MXvMQT6KDFs-unsplash.jpg" alt="Gallery Image 2" width="300" height="200">
+                    <figcaption>Gallery Image 2</figcaption>
+                    <img src="../assets/images/david-kovalenko-G85VuTpw6jg-unsplash.jpg" alt="Gallery Image 3" width="300" height="200">
+                    <figcaption>Gallery Image 3</figcaption>
+                </figure>
+            </section>
+
+            <section id="contact"> <!-- 5th Section -->
+                <h2>Contact</h2>
+                <p>This is the contact section.</p>
+                <form action="https://www.example.com/api/v1/notes" method="POST">
+                    <fieldset>
+                        <legend>Contact Form</legend>
+                    <label for="Name">Name:</label>
+                    <input type="text" id="Name" name="Name" placeholder="Enter your name">
+                    <br>
+                    <label for="Email">Email:</label>
+                    <input type="email" id="Email" name="Email" placeholder="Enter your email">
+                    <br>
+                    <label for="Tel">Telephone:</label>
+                    <input type="tel" id="Tel" name="Tel" placeholder="Enter your telephone number">
+                    <br>
+                    <label for="Date">Date:</label>
+                    <input type="date" id="Date" name="Date">
+                    <br>
+                    <label for="Message">Message:</label>
+                    <textarea id="Message" name="Message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+                    <br><br>
+                    <label for="Reason">Reason for Contact:</label>
+                    <select id="Reason" name="Reason">
+                        <option value="feedback">Feedback</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="support">Support Request</option>
+                    </select>
+                    <br><br>
+                    <label for="">Preferred Method of Contact:</label>
+                    <br>
+                    <input type="radio" id="Option1" name="Options" value="Option1">
+                    <label for="Option1">Email</label>
+                    <br>
+                    <input type="radio" id="Option2" name="Options" value="Option2">
+                    <label for="Option2">Phone</label>
+                    <br><br>
+                    <input type="checkbox" id="Option3" name="Options" value="Option3" required>
+                    <label for="Option3">Accept Terms and Conditions</label>
+                    <br><br>
+                    <button type="submit">Send</button>
+                    </fieldset>
+                </form>
+            </section><br><hr><hr>
+
+            <section id="FAQ"> <!-- 6th Section -->
+                <h2>FAQ</h2>
+                <p>This is the FAQ section.</p>
+                <details>
+                    <summary>What is the purpose of this website?</summary>
+                    <p>This website serves as a personal portfolio and contact platform for Abdullah Mohsen, showcasing his skills, courses, and providing a means for visitors to get in touch.</p>
+                    <summary>How can I contact Abdullah Mohsen?</summary>
+                    <p>You can contact <span class="highlight">Abdullah Mohsen</span> through the contact form provided in the "Contact" section of the website. Fill out the form with your name, email, telephone number, date, message, reason for contact, and preferred method of contact. Make sure to accept the terms and conditions before submitting the form.</p>
+                    <summary>What are the skills of Abdullah Mohsen?</summary>
+                    <p>Abdullah Mohsen possesses skills in web development, UI/UX design, frontend development, and software engineering. He has experience with HTML, CSS, JavaScript, and React.</p>
+                </details>
+            </section><br><hr><hr>
+
+            <section id="footer"> <!-- 7th Section -->
+                <footer>
+                    <address>
+                        Abdullah Mohsen Mohamed<br>
+                        123 Web Developer Lane<br>
+                        asyut, Egypt, 71571<br>
+                        Email: <a href="mailto:abdullahmohsen@example.com">abdullahmohsen@example.com</a>
+                    </address>
+                    <p>&copy; 2026 Abdullah Mohsen Mohamed. All rights reserved.</p>
+                    <a href="https://www.linkedin.com/in/abdullah-mohsen-mohamed-1a2b3c4d5e6f7g8h9i0j/" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/abdullahmohsen" target="_blank">GitHub</a> |
+                    <a href="https://www.instagram.com/abdullahmohsen/" target="_blank">Instagram</a> |
+                    <a href="https://twitter.com/abdullahmohsen" target="_blank">Twitter</a>
+                </footer>
+            </section>
+        </main>
+    </body>
+</html>
