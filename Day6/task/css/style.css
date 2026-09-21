@@ -1,0 +1,91 @@
+
+:root {
+    --primary-color: beige;
+}
+
+* {
+    color:var(--primary-color);
+}
+
+body {
+    background-image: url(/Day6/assets/images/plane-in-a-forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+
+nav,
+h1,
+#about .teaser {
+    text-align: center;
+    cursor: grab;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+img {
+    width: 200px !important; /*Needed to not change the size of the image later*/
+    height: 200px !important; /*Needed to not change the size of the image later*/
+    cursor: not-allowed;
+}
+
+
+.information {
+    font-style: italic;
+    font-size: 24px;
+    width: 16%;
+    margin: 20px auto;
+}
+
+#about {
+    --local-bg-color: black;
+    background-color: var(--local-bg-color);
+    min-height: auto;
+    max-width: fit-content;
+    font-size: 1em;
+}
+
+#about .teaser:hover {
+    background-color: var(--primary-color);
+    color: black;
+}
+
+#skills {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#skills > p {
+    background-color: rgb(196, 142, 179);
+    text-align: left;
+    width: 40vw;
+    height: 40vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#contact h3 {
+    text-align: center;
+}
+
+#contact ul {
+    font-size: 16px;
+}
+
+/* understanding CSS Specificity */
+.specificity-example {
+    color: rgb(208, 71, 3);
+}
+
+#specificity-ex {
+    color: rgb(255, 145, 0);
+}

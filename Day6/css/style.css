@@ -1,0 +1,36 @@
+/* :root {
+    --main-color: cyan;
+    --secondary-color: beige;
+    --background-color: black;
+}
+h1 {
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+p {
+    color: var(--secondary-color);
+    --local-color: tomato;
+    background-color: var(--local-color);
+} */
+
+/* div h1 {
+    background-color: brown;
+    text-align: center;
+    width: 70% ;
+    height: 15vh
+}
+p {
+    background-color: blue;
+    color: beige;
+    height: 7vh;
+} */
+
+div {
+    color:bisque;
+    background-color: beige;
+    background-image: url(../assets/images/tim-mcerston-MXvMQT6KDFs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
