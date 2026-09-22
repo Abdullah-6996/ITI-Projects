@@ -1,0 +1,25 @@
+html {
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    font-variation-settings:
+    "GRAD" 0;
+}
+.card {
+    background-color: rgb(236, 172, 159);
+    color: rgb(89, 38, 20);
+    text-decoration: dashed ;
+    text-align: center;
+    width: 600px;
+    height: 475px;
+    border: outset 0.5rem;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 50px auto;
+    box-shadow: 2px 4px 6px;
+}
+button:hover {
+    background-color: brown;
+    color: bisque;
+}
