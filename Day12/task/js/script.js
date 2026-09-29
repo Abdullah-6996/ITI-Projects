@@ -48,7 +48,7 @@ var userInput = window.prompt("Enter Movie Name: ").toLowerCase();
         }
 }
 if(index === movies.length){
-    console.log("Enter a Proper Movie Name!");
+    console.log("Movie is not found!");
 }
 
 function movieInfo() {
@@ -68,7 +68,7 @@ function movieInfo() {
     }
     
     if(index === movies.length) {
-        console.log("Enter a Proper Movie Name!");
+        console.log("Movie is not found!");
     }
 }
 movieInfo();
