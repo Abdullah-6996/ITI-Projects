@@ -3,15 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
-        <title>My To-Do List</title>
+        <title>To-Do List</title>
     </head>
 
     <body>
-        <h1>My To-Do List</h1>
-        <input type="text" id="taskInput" placeholder="Add a new task...">
-        <button id="addButton">Add</button>
-        
+        <div class="container mt-4">
+            <h1 class="text-center">To-Do List</h1>
+            <div class="input-box mb-3">
+                <input type="text" class="form-control" id="taskInput" placeholder="Add a new task...">
+                <button class="btn btn-primary" id="addButton">Add</button>
+                <button class="btn btn-danger" id="clearButton">Clear All</button>
+            </div>
+
+            <ul class="list-group" id="taskList"></ul>
+        </div>
+        <script src="./js/bootstrap.bundle.js"></script>
         <script src="./js/script.js"></script>
     </body>
 </html>
