@@ -1,0 +1,14 @@
+.button {
+    background-color: teal;
+    color: whitesmoke;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border:none;
+    margin:5px 20px;
+}
+
+.text {
+    color: tomato;
+    background-color: black;
+    text-align: center;
+}
